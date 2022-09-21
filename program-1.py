@@ -22,7 +22,7 @@ while choice!=0:
     print("4. Division")
     choice=int(input("Enter choice: "))
     if choice==1:
-        print("Result: ",obj.add())
+         print("Result: ",obj.add())
     elif choice==2:
         print("Result: ",obj.sub())
     elif choice==3:
@@ -33,5 +33,8 @@ while choice!=0:
         print("Exiting!")
     else:
         print("Invalid choice!!")
+print()
  
- print()
+
+
+
